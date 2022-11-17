@@ -45,7 +45,8 @@
 
 #project > div >h3{
 
-    color: white;
+    color: rgb(246, 246, 246);
+    
 }
 
 #project > div{
@@ -63,7 +64,7 @@
     padding: 1.5em;
     font: bold 16px Roboto;
     animation: showProject 1s ease forwards;
-    
+
   
 }
 
