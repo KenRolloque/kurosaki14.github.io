@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="section-1.css">
+    <link rel="stylesheet" href="section-2.css">
+    <link rel="stylesheet" href="section-3.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+  </head>
+<body>
+
+    <!-- NAVIGATION BAR FOR PHONE-->
+    <button id = "hamburger"> 
+      <img src="./image/icon/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+    </button>
+
+    <!-- Side nav BAR FOR PHONE-->
+
+    <div id="side-nav">
+
+      <button id = "close-hamburger">
+        <img src="./image/icon/close_FILL0_wght400_GRAD0_opsz48.png" alt="">
+      </button>
+      
+
+      <ul id = "navList">
+     
+        <li class="btn"> <img src="./image/icon/home_FILL0_wght400_GRAD0_opsz48.png" alt=""> <a href="#section-1" onclick="closeSide()" >Home</a></li>
+        <li class="btn"><img src="./image/icon/info_FILL0_wght400_GRAD0_opsz48.png" alt=""><a href="#section-2"  onclick="closeSide()">About</a></li>
+        <li class="btn"><img src="./image/icon/school_FILL0_wght400_GRAD0_opsz48.png" alt=""><a href="#section-3" onclick="closeSide()">College</a></li>
+        <li class="btn"><img src="./image/icon/perm_contact_calendar_FILL0_wght400_GRAD0_opsz48.png" alt=""><a href="#footer" onclick="closeSide()">Contact</a></li>
+      </ul>
+
+    </div>
+    
+    <!-- NAVIGATION BAR-->
+      <header>
+        <nav id ="navig">
+
+            <!-- LOGO-->
+            <img src="./image/KM.png" alt="">
+
+
+             <ul>
+
+                <li class="btn"> <a href="#section-1" >HOME</a></li>
+                <li class="btn"><a href="#section-2" >ABOUT</a></li>
+                <li class="btn"><a href="#section-3">COLLEGE</a></li>
+                <li class="btn"><a href="#footer">CONTACT</a></li>
+            </ul>
+        </nav>
+      </header>
+
+
+      <div id="section-1" data-aos="fade-right" data-aos-duration="500">
+
+          <div>
+            <h4>😎 ASPIRING WEB DEVELOPER / SOFTWARE DEVELOPER</h4>
+
+            <h1>HI! I'M KEN <br>MARK ROLLOQUE </h1>
+           
+
+            <p>Any fool can write code that a computer can 
+              understand. Good programmers write a code
+              that humans can  understand.
+            </p>
+
+              <span>
+                <button> Contact Me</button>
+                <h3> Scroll Down</h3>
+              </span>
+
+              <div>
+                <span><img src="./image/icons8-check-64 (1).png" alt=""> BSIT Student</span>
+                <span><img src="./image/icons8-check-64 (1).png" alt="">Specialized Network Technology</span>
+                
+              </div>
+              
+          </div>
+
+
+          <div>
+              <h4>😎 ASPIRING WEB DEVELOPER / SOFTWARE DEVELOPER</h4>
+              <img src="./image/prof2.png" alt="" id="profile"  data-aos="fade-left" data-aos-duration="1000">
+          </div>
+
+      </div>
+
+
+      <div id="section-2">
+
+          <div class="section-2-header" data-aos="fade-down" data-aos-duration="500">
+
+              <h5> ABOUT ME</h5>
+              <p>Ken Mark L. Rolloque, 20 years old BSIT student of
+                Batangas State University.Currently, I am a 3rd year
+                student taking Network Technology Track.</p>
+          </div>
+
+          <div class="subjects">
+
+            <span data-aos="fade-right" data-aos-duration="500">
+              <div id = "subject-1" >CODING</div>
+              <div id = "subject-2">NETWORKING</div>
+            </span>
+
+            <span data-aos="fade-right" data-aos-duration="500">
+              <div id = "subject-3">DATABASE </div>
+              <div id = "subject-4" >IoT</div>
+            </span>
+
+          </div>
+
+          <div class="sub-desc">
+            <div id="coding">
+                <span>
+                <img src="./image/icon/icons8-code-64.png" alt="">
+                  <h3>CODING</h3>
+              </span>
+
+              <p>
+
+                My first programming language is C++ where I learned the fundamentals of programming. Additionally, Java language helps me understand the concep of OOP. As of now, I am learning Javavscript for web development.
+              </p>
+            </div>
+
+              <div id="networking">
+                <span>
+                  <img src="./image/icon/icons8-code-64.png" alt="">
+                  <h3>NETWORKING</h3>
+                </span>
+
+                <p>
+                  As a network technology student, I am currently studying computer networking, IOT, and cloud computing. Currently, I have finished CCNA 1 and CCNA 2, and currently taking CCNA 3 and IOT.
+                </p>
+              </div>
+
+              <div id="database">
+                <span>
+                  <img src="./image/icon/icons8-code-64.png" alt="">
+                  <h3>DATABASE MANAGEMENT</h3>
+                </span>
+
+                <p>
+                  During our second year, we are taught about the fundamentals of
+                  database management including relational database, distributed database,
+                  distributed request, and concurrency control. Furthermore, we are also
+                  taught of using  MySQL and Microsoft Access.                </p>
+              </div>
+
+              <div id="iot">
+                <span>
+                  <img src="./image/icon/icons8-code-64.png" alt="">
+                  <h3>Internet of Things</h3>
+                </span>
+
+                <p>
+                  As a network technology student, we are also learning Internet
+                  of Things in our university. We are taught of using Arduino , Raspberry Pie,
+                  sensors, actuators , and other devices of IoT. Programming language like
+                  C++ and Python is used in writing sets of instruction in microcontroller.
+                   </p>
+              </div>
+
+          </div>
+
+         </div>
+
+
+        <div id="section-3">
+
+          <div data-aos="fade-left" data-aos-duration="500">
+              <h1>COLLEGE</h1>
+              <p> As a BSIT student, we create a number of project to enhance and evalue our skills in different field of Information Technology</p>
+          </div>
+
+          <div id ="project" data-aos="fade-right" data-aos-duration="500">
+
+            <div id="project-1" >
+              <h3>Restaurant Ordering System</h3>
+              <div id = "project-1-desc">
+                <p> Restaurant ordering system's main goal is to provide customers a way to order food from a restaurant over the internet or through phone call</p>
+                <p><strong> Type:</strong> Console </p>
+                <p><strong> Subject:</strong> Computer Programming</p>
+
+                <span>Language: <img src="./image/C++.png" alt=""></span>
+
+                <button id="gitButton">
+                  <img src="./image/icon/github.svg" alt=""> 
+                  <a href="https://github.com/KenRolloque/Ordering-System-C-" target="_blank">GitHub</a> 
+                </button>
+              </div>
+            </div>
+
+            <div id="project-2">
+
+              <h3>Restaurant Ordering System with GUI</h3>
+              <div id = "project-2-desc">
+                <p> A system that allows customers to purchase foods in a much simple and convenient way. Through online, this system will allow you to order food without having to go to the restaurant.</p>
+                <p><strong> Type:</strong> with GUI </p>
+                <p><strong> Subject:</strong> Objected-Oriented Programming</p>
+                <span>
+                  Language:
+                  <img src="./image/Java-Logo.png" alt="">
+                  <img src="./image/image-removebg-preview (3).png" alt="">
+                </span>
+
+                <button id="gitButton">
+                  <img src="./image/icon/github.svg" alt="">
+                  <a href="https://github.com/KenRolloque/Ordering-System" target="_blank">GitHub</a> 
+                </button>
+              </div>
+            </div>
+
+
+            <div id="project-3">
+              <h3>Account Vault System</h3>
+              <div id = "project-3-desc">
+                <p> Account vault storage is a user-friendly system used for remembering users multiple accounts in an organized and manageable way</p>
+                <p><strong> Type:</strong> with GUI and Database </p>
+                <p><strong> Subject:</strong> Advance Database Management System</p>
+                <span>
+                  Language:
+                  <img src="./image/python.png" alt="">
+                  <img src="./image/image-removebg-preview (3).png" alt="">
+                </span>
+
+                <button id="gitButton">
+                  <img src="./image/icon/github.svg" alt="">
+                  <a href="https://github.com/jeh-ehm/AccVault" target="_blank">GitHub</a>        
+                </button>
+              </div>
+            </div>
+    </div>
+    </div>
+     <!-- FOOTER -->
+     
+     <footer id ="footer" >
+      <h3 data-aos="fade-up" data-aos-duration="500">GET IN TOUCH</h3>
+      <div class="soc-icons">
+          <img src="./image/icon/facebook.svg" alt="">
+          <img src="./image/icon/instagram.svg" alt="">
+          <img src="./image/icon/twitter.svg" alt="">
+          <img src="./image/icon/github.svg" alt="">
+          <img src="./image/icon/envelope-solid.svg" alt="">
+      </div>
+
+         <h5 > Copy Right © Ken Rolloque. All Right Reserved.</h5>
+
+     </footer>
+
+
+  <!-- SECTION 3 FUNCTION-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script>
+
+            document.getElementById("project-1").addEventListener("click",showDescription1);
+            document.getElementById("project-2").addEventListener("click",showDescription2);
+            document.getElementById("project-3").addEventListener("click",showDescription3);
+          
+            let getDesc = document.getElementById("project-1-desc");
+            let getProj = document.getElementById("project-1");
+
+            var getDesc2 = document.getElementById("project-2-desc");
+            var getProj2 = document.getElementById("project-2");
+
+            var getDesc3 = document.getElementById("project-3-desc");
+            var getProj3 = document.getElementById("project-3");
+
+
+              /* SUBJECTS */
+
+            document.getElementById("subject-1").addEventListener("click",showSubjects);
+            document.getElementById("subject-2").addEventListener("click",showSubjects2);
+            document.getElementById("subject-3").addEventListener("click",showSubjects3);
+            document.getElementById("subject-4").addEventListener("click",showSubjects4);
+            /* GET TO SHOW DESCRIPTION */
+            var getSubDesc = document.getElementById("coding");
+            var getSubDesc2 = document.getElementById("networking");
+            var getSubDesc3 = document.getElementById("database");
+            var getSubDesc4 = document.getElementById("iot");
+
+            /* GET TO SHOW ACTIVE SUBJECT */
+            var getSub = document.getElementById("subject-1")
+            var getSub2 = document.getElementById("subject-2")
+            var getSub3 = document.getElementById("subject-3")
+            var getSub4 = document.getElementById("subject-4")
+
+            function showDescription1(){
+
+
+            if (getDesc.style.display == "inline-flex" ){
+
+              getDesc.style.display ="none";
+              getProj.style.animation = "hideDesc 1s ease forwards";
+
+
+              }else{
+
+                getProj.style.animation = "showDesc 1s ease forwards";
+                getDesc.style.display ="inline-flex";
+                
+
+              }
+
+            }
+
+            function showDescription2(){
+
+
+                if (getDesc2.style.display == "inline-flex" ){
+
+                  getDesc2.style.display ="none";
+                  getProj2.style.animation = "hideDesc 1s ease forwards";
+
+
+                  }else{
+
+                    getProj2.style.animation = "showDesc 1s ease forwards";
+                    getDesc2.style.display ="inline-flex";
+
+                  }
+
+            }
+
+
+            function showDescription3(){
+
+
+                if (getDesc3.style.display == "inline-flex" ){
+
+                  getDesc3.style.display ="none";
+                  getProj3.style.animation = "hideDesc 1s ease forwards";
+
+
+                  }else{
+
+                    getProj3.style.animation = "showDesc 1s ease forwards";
+                    getDesc3.style.display ="inline-flex";
+
+                  }
+
+            }
+
+
+            function showSubjects(){
+
+              if (getSubDesc.style.display == "inline-flex" ){
+
+              }else{
+                    getSubDesc.style.display ="inline-flex";
+                    getSubDesc2.style.display ="none";
+                    getSubDesc3.style.display = "none";
+                    getSubDesc4.style.display = "none";
+
+                    getSub.style.backgroundColor ="#4F8A8B";
+                    getSub.style.color = "white";
+                    getSub.style.transition = ".5s ease"
+
+                    getSub2.style.backgroundColor = "white";
+                    getSub2.style.color = "#747474";
+
+                    getSub3.style.backgroundColor = "white";
+                    getSub3.style.color = "#747474";
+
+                    getSub4.style.backgroundColor = "white";
+                    getSub4.style.color = "#747474";
+              }
+            }
+
+            function showSubjects2(){
+
+                if (getSubDesc2.style.display == "inline-flex" ){
+
+                }else{
+                      getSubDesc2.style.display ="inline-flex";
+                      getSubDesc.style.display = "none";
+                      getSubDesc3.style.display = "none";
+                      getSubDesc4.style.display = "none";
+
+                      getSub2.style.backgroundColor ="#4F8A8B";
+                      getSub2.style.color = "white";
+                      getSub2.style.transition = ".5s ease"
+
+                      getSub.style.backgroundColor = "white";
+                      getSub.style.color = "#747474";
+
+                      getSub3.style.backgroundColor = "white";
+                      getSub3.style.color = "#747474";
+
+                      getSub4.style.backgroundColor = "white";
+                      getSub4.style.color = "#747474";
+        }
+        }
+
+
+        function showSubjects3(){
+
+          if (getSubDesc3.style.display == "inline-flex" ){
+
+          }else{
+                getSubDesc3.style.display ="inline-flex";
+                getSubDesc4.style.display = "none";
+                getSubDesc2.style.display = "none";
+                getSubDesc.style.display = "none";
+
+
+                getSub3.style.backgroundColor ="#4F8A8B";
+                getSub3.style.color = "white";
+                getSub3.style.transition = ".5s ease"
+
+                getSub.style.backgroundColor = "white";
+                getSub.style.color = "#747474";
+
+                getSub2.style.backgroundColor = "white";
+                getSub2.style.color = "#747474";
+
+                getSub4.style.backgroundColor = "white";
+                getSub4.style.color = "#747474";
+          }
+          }
+
+          function showSubjects4(){
+
+          if (getSubDesc4.style.display == "inline-flex" ){
+
+          }else{
+                getSubDesc4.style.display ="inline-flex";
+                getSubDesc3.style.display = "none";
+                getSubDesc2.style.display = "none";
+                getSubDesc.style.display = "none";
+              
+
+                getSub4.style.backgroundColor ="#4F8A8B";
+                getSub4.style.color = "white";
+                getSub4.style.transition = ".5s ease"
+
+                getSub.style.backgroundColor = "white";
+                getSub.style.color = "#747474";
+
+                getSub2.style.backgroundColor = "white";
+                getSub2.style.color = "#747474";
+
+                getSub3.style.backgroundColor = "white";
+                getSub3.style.color = "#747474";
+          }
+          }
+
+          $(document).ready(function(){
+  // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+          </script>
+
+
+
+
+
+<script>
+    // document.getElementById("project-3").addEventListener("click",showDescription3);
+
+    document.getElementById("hamburger").addEventListener("click",openSide);
+    document.getElementById("close-hamburger").addEventListener("click",closeSide);
+
+    var getSide = document.getElementById("side-nav");
+    var hideNavList = document.getElementById("navList");
+    var disableScroll = document.getElementsByTagName("body");
+      function openSide(){
+
+
+          if (getSide.style.display == "inline-flex"){
+
+          }else{
+              getSide.style.display = "inline-flex";
+              getSide.style.animation ="side-nav-animation 1s ease forwards";
+
+              setTimeout(function(){
+                  hideNavList.style.display ="inline-flex";
+               },200);
+          }
+
+        }
+
+      function closeSide(){
+         var hideNavList = document.getElementById("navList");
+ 
+          getSide.style.animation = "close-side-nav-animation 1s ease forwards";
+
+          setTimeout(function(){
+            hideNavList.style.display = "none";
+          },200);
+
+          setTimeout(function(){
+            getSide.style.display = "none";
+          },1000);
+      }
+
+    
+</script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>     AOS.init();</script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+#section-3{
+
+    grid-column: auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10em;
+
+    background-color: #ddf1fa;
+
+
+
+}
+
+#section-3 > div:first-child>h1 {
+    width: 4.6em;
+    border-bottom: 4px solid #00BEC1;
+    font-size: 2em;
+}
+
+#section-3 > div:first-child{
+
+    padding: 5em  0 3em 15em;
+    font: bold 20px Inter;
+}
+
+#section-3 > div:first-child > p{
+
+    font: normal 15px Roboto;
+    color: #747474;
+    width: 34%;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+#project{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+    font-family: Roboto;
+}
+
+#project > div >h3{
+
+    color: rgb(0, 0, 0);
+}
+
+#project > div{
+  
+    width: 35%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #00989a;
+    box-shadow: 5px 7px 8px #CACACA; 
+    color: black; 
+}
+
+#project> div>h3{
+    text-align: center;
+    padding: 1.5em;
+    font: bold 16px Roboto;
+    animation: showProject 1s ease forwards;
+
+  
+}
+
+#gitButton{
+    font: bold 14px Montserrat;
+    display: inline-flex;
+    margin-top: 3em;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: .8em;
+    border-radius: 5px;
+    border: 2px solid  rgb(199, 199, 199);
+    background-color: white;
+}
+
+#gitButton > img {
+    margin-right: 10px;
+}
+
+#gitButton > a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 1vw;
+}
+#gitButton:hover{
+    background-color: rgb(199, 199, 199);
+    border: 2px solid  rgb(199, 199, 199);
+    transition: 1s ease;
+}
+
+#gitButton:not(:hover){
+
+    transition: 1s ease;
+}
+
+#gitButton > img{
+    width: 15%;
+    height: auto;
+}
+#project> div> div{
+    /* display: inline-flex; */
+    
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    padding: 3em 4em 2em 5em;
+    line-height: 1.3em;
+    font-family: Roboto;
+}
+
+#project-1-desc{
+    display: none;
+    
+}
+
+
+#project-2-desc{
+    display: none;
+    
+}
+#project-3-desc{
+    display: none;
+    
+}
+
+#project > div> div > p:nth-child(2){
+    margin: 2em 0 0.5em;
+    
+}
+#project> div> div >span{
+    display: inline-flex;
+    align-items: center;
+    font: bold 16px '';
+    gap:10px;
+    font-family: Roboto;
+    padding-bottom: 2em;
+
+   
+
+ 
+}
+#project-1> div >span >img{
+    width: 6%;
+    height: auto;
+    
+}
+
+
+#project-2> div >span >img{
+    width: 10%;
+    height: auto;
+
+}
+
+#project-3> div >span >img{
+    width: 10%;
+    height: auto;
+
+}
+
+
+
+
+
+@keyframes showDesc {
+
+
+
+    0%{
+        height: 10vh;
+    }
+    
+    90%{
+        height: 90%;
+    }
+    100%{
+        height: auto ;
+    }
+}
+
+@keyframes hideDesc {
+
+    from{
+       height: 46vh;
+        
+    }to{
+        height: 4.5em;
+    }
+    
+}
+@media only screen and (max-width: 775px) {
+
+    #section-3 {
+        padding-bottom: 5em;
+        
+    }
+    #section-3 > div:first-child{
+
+        padding: 0;
+        font: bold 10px Inter;
+    }
+
+    #section-3 > div:first-child>h1 {
+        width: 4.6em;
+        border-bottom: 4px solid #00BEC1;
+        font-size: 2em;
+    }
+
+    #section-3 > div:first-child > p{
+
+        font: normal 12px Roboto;
+        width: 80%;
+
+    }
+
+    #section-3 > div:first-child > *{
+        margin: 2em 0 0 2em;
+    }
+
+    #section-3 > div:first-child > p{
+        margin-left: 4em;
+    }
+
+    #project{
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    #project > div{
+        width: 80%;
+        margin-top: 2em;
+    }
+
+    #project> div > h3{
+        font-size: 13px;
+    }
+
+    #project> div> div{
+
+        padding: 2em 3em 2em 3em;
+    }
+
+    #project> div > div > p,
+    #project> div > div > span
+    {
+        font-size: 14px;   
+    }
+
+    #gitButton{
+        padding: .8em 1em;
+        width: 30%;
+        
+    }
+    #gitButton > a {
+        font-size: 1.8vw;
+    }
+
+    @keyframes hideDesc {
+
+        from{
+           height: 46vh;
+            
+        }to{
+            height: 3.4em;
+        }
+}
+
+}
+
+@media only screen and (max-width: 430px) {
+
+
+    #section-3 {
+        padding-bottom: 5em;
+    }
+    #section-3 > div:first-child{
+
+        padding: 0;
+        font: bold 10px Inter;
+    }
+
+    #section-3 > div:first-child>h1 {
+        width: 22%;
+        border-bottom: 4px solid #00BEC1;
+    }
+
+    #section-3 > div:first-child > p{
+
+        font: normal 12px Roboto;
+        width: 80%;
+
+    }
+
+    #section-3 > div:first-child > *{
+        margin: 2em 0 0 2em;
+    }
+
+    #section-3 > div:first-child > p{
+        margin-left: 4em;
+    }
+
+    #project{
+        gap: 1em;
+        margin-top: 2em;
+    }
+
+    #project > div{
+        width: 80%;
+        margin-top: 1em;
+    }
+
+    #project> div > h3{
+        font-size: 13px;
+    }
+
+    #project> div> div{
+
+        padding: 2em 3em 2em 3em;
+    }
+
+    #project> div > div > p,
+    #project> div > div > span
+    {
+        font-size: 12px;   
+    }
+
+    #gitButton{
+        padding: .6em 1em;
+        width: 60%;
+        font-size: 10px;
+    }
+
+    @keyframes hideDesc {
+
+        from{
+           height: 46vh;
+            
+        }to{
+            height: 3.4em;
+        }
+}
+}
