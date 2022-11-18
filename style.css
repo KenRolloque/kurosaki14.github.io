@@ -23,6 +23,12 @@ body{
     padding: 10px;
     border: 0;
 }
+
+#hamburger:hover{
+    cursor: pointer;
+
+}
+
 #hamburger > img{
     width: 100%;
     height: auto;
@@ -86,7 +92,9 @@ nav > img {
     width: 100vw;
     height: 100vh;
     background-color: white;
+    z-index: 1;
 }
+
 
 
 
